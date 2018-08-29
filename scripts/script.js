@@ -10,14 +10,15 @@
 //3. if else function to check for fruit first, if string matches then returns fruit
 //4. if false, returns vegetable.
 
-var fruits = ['apple', 'banana', 'grape']
+// document.getElementById('result').innerHTML = "it's a fruit!";
+// document.getElementById('result').innerHTML = "it's a veggie!";
 
 function userProduce() {
     var fruits = ['apple', 'banana', 'grape']
-    var produce = document.getElementById("produce");
-    if (fruits.indexOf(produce) > -1) {
-        alert("it's a fruit!")
+    var produceChoice = document.getElementById("produce");
+    if (fruits.indexOf(produceChoice) > -1) {
+        alert("it's a fruit!");
     } else {
-        alert("it's a vegetable!")
+        alert("it's a veggie!");
     }
 }
