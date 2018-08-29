@@ -20,6 +20,6 @@ function userProduce() {
     } else if (veggies.indexOf(produceChoice.value) > -1) {
         document.getElementById('result').innerHTML = "Veggie!";
     } else {
-        document.getElementById('result').innerHTML = "Not Sure!";
+        document.getElementById('result').innerHTML = "Not sure about that one!";
     }
 }
