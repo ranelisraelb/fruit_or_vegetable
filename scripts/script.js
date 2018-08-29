@@ -16,7 +16,7 @@
 function userProduce() {
     var fruits = ['apple', 'banana', 'grape']
     var produceChoice = document.getElementById("produce");
-    if (fruits.indexOf(produceChoice) > -1) {
+    if (fruits.indexOf(produceChoice.value) > -1) {
         alert("it's a fruit!");
     } else {
         alert("it's a veggie!");
