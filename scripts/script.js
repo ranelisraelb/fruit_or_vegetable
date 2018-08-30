@@ -13,7 +13,7 @@
 
 function userProduce() {
     var fruits = ['apple', 'apricots', 'avocado', 'banana', 'blueberries', 'cantaloupe', 'cherry', 'clementine', 'cranberries', 'durian', 'grapefruit', 'grape', 'guava', 'jackfruit', 'kiwi', 'lemon', 'lime', 'lychee', 'mandarin', 'mango', 'nectarine', 'olives', 'orange', 'papaya', 'passion fruit', 'peaches', 'pear', 'persimmon', 'pineapple', 'plantain', 'plums', 'pomegranate', 'prunes', 'raspberries', 'rhubarb', 'strawberries', 'tamarind', 'tangerine', 'watermelon']
-    var veggies = ['brocolli', 'carrot', 'eggplant']
+    var veggies = ['artichoke', 'arugula', 'asparagus', 'beans', 'beets', 'bok choy', 'broccoli', 'brussel sprouts', 'cabbage', 'carrot', 'cauliflower', 'celery', 'collards', 'corn', 'cucumber', 'daikon', 'edamame', 'eggplant', 'ginger', 'kale', 'lettuce', 'mushrooms', 'okra', 'onion', 'peas', 'pepper', 'potato', 'pumpkin', 'radishes', 'spinach', 'squash', 'tomato', 'turnip', 'zucchini']
     var produceChoice = document.getElementById("produce");
     if (fruits.indexOf(produceChoice.value) > -1) {
         document.getElementById('result').innerHTML = "Fruit!";
