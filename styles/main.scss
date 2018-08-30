@@ -8,10 +8,14 @@ sans-serif;
     justify-content: center;
 }
 
+body {
+    background-image: linear-gradient(to right, #b19cd9, #64b4fa, #00cbf3, #00d9c0, #77dd77);
+}
+
 .title {
     font-family: $headerfont;
     @include flexCenter;
-    font-size: 5em;
+    font-size: 10vw;
     width: 100%;
     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
@@ -24,17 +28,27 @@ sans-serif;
     margin-top: -2em;
 }
 
-.input {
+.typehere {
     @include flexCenter;
-    flex-direction: column;
 
-    .typehere {
+    .inputbox {
+        font-family: $paragraphfont;
         text-align: center;
+    }
+}
+
+.clickhere {
+    @include flexCenter;
+    margin: 1em 0 0 0;
+
+    .submitbox {
+        font-family: $paragraphfont;
     }
 }
 
 #result {
     @include flexCenter;
+    font-family: $paragraphfont;
 }
 
 footer {
