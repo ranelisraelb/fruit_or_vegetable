@@ -23,9 +23,9 @@ function userProduce() {
     var veggies = ['artichoke', 'arugula', 'asparagus', 'beans', 'beets', 'bok choy', 'broccoli', 'brussel sprouts', 'cabbage', 'carrot', 'cauliflower', 'celery', 'collards', 'corn', 'cucumber', 'daikon', 'edamame', 'eggplant', 'ginger', 'kale', 'lettuce', 'mushrooms', 'okra', 'onion', 'peas', 'pepper', 'potato', 'pumpkin', 'radishes', 'spinach', 'squash', 'tomato', 'turnip', 'zucchini']
     var produceChoice = document.getElementById("produce");
     if (fruits.indexOf(produceChoice.value) > -1) {
-        document.getElementById('result').innerHTML = "Fruit!";
+        document.getElementById('result').innerHTML = produceChoice.value + " is a fruit!";
     } else if (veggies.indexOf(produceChoice.value) > -1) {
-        document.getElementById('result').innerHTML = "Veggie!";
+        document.getElementById('result').innerHTML = produceChoice.value + " is a veggie!";
     } else {
         document.getElementById('result').innerHTML = "Not sure about that one!";
     }
