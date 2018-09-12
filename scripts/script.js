@@ -10,6 +10,13 @@
 //3. if else function to check for fruit first, if string matches then returns fruit
 //4. if false, returns vegetable.
 
+var hitEnter = document.getElementById("produce")
+hitEnter.addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("clickhere").click();
+    }
+})
 
 function userProduce() {
     var fruits = ['apple', 'apricots', 'avocado', 'banana', 'blueberries', 'cantaloupe', 'cherry', 'clementine', 'cranberries', 'durian', 'grapefruit', 'grape', 'guava', 'jackfruit', 'kiwi', 'lemon', 'lime', 'lychee', 'mandarin', 'mango', 'nectarine', 'olives', 'orange', 'papaya', 'passion fruit', 'peaches', 'pear', 'persimmon', 'pineapple', 'plantain', 'plums', 'pomegranate', 'prunes', 'raspberries', 'rhubarb', 'strawberries', 'tamarind', 'tangerine', 'watermelon']
